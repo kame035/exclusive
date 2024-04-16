@@ -1,0 +1,532 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: "Poppins";
+    border: none;
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/Poppins-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/Poppins-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/Poppins-Regular.ttf);
+    font-weight: 400;
+}
+.to-up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: fixed;
+    background-color: #F5F5F5;
+    bottom: 20px;
+    right: 20px;
+    width: 46px;
+    height: 46px;
+}
+.w1170 {
+    width: 1170px;
+    margin: 0 auto;
+}
+.py{
+    padding: 70px 0;
+}
+.white {
+    color: white;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+button {
+    background-color: transparent;
+}
+
+.header-top {
+    background-color: black;
+    width: 100%;
+    color: white;
+    padding: 15px 0;
+}
+
+.header-top-text {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header-top-text a {
+    text-decoration: underline;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e1e0e0;
+}
+
+header h3 {
+    font-size: 25px;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 40px 0 16px;
+}
+
+.inp {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    background-color: #F5F5F5;
+    padding: 7px 20px;
+}
+
+input {
+    background-color: #F5F5F5;
+}
+
+nav {
+    display: flex;
+    gap: 48px;
+}
+
+nav a {
+    color: black;
+}
+
+
+.banner-full {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 230px;
+    border-right: 1px solid #e1e0e0;
+    padding: 40px 0 16px;
+
+}
+
+.banner-nav a {
+    color: black;
+}
+
+.next {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner {
+    position: relative;
+    width: 892px;
+    height: 344px;
+    background-color: black;
+}
+
+.banner-in {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-logo {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.banner-text{
+    margin: 58px 64px 0 47px;
+}
+.banner-text a::after{
+    content: url(../img/banner/icons\ arrow-right.png);
+    vertical-align: middle;
+    margin-left: 18px;
+}
+.banner-text a{
+    text-decoration: underline;
+}
+.circle{
+    width: 12px;
+    height: 12px;
+    background-color:#7D8184 ;
+    border-radius: 50%;
+}
+.banner-slide{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+.circleact{
+    background-color: #DB4444;
+    border: 1px solid white;
+}
+
+
+.block-titles{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+.block{
+    width: 20px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #DB4444;
+}
+.block-titles p{
+    color: #DB4444;
+    font-weight: 500;
+}
+.sales-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+.sales-title{
+    display: flex;
+    justify-content: space-between;
+}
+.sales-tit{
+    display: flex;
+    gap: 87px;
+}
+.timer{
+    display: flex;
+
+}
+.timer h3{
+    font-size: 36px;
+}
+.timer p{
+    font-size: 12px;
+    font-weight: 500;
+}
+.timer{
+    display: flex;
+    align-items: center;
+}
+.circ{
+    margin: 0 17px;
+}
+.left{
+    padding: 11px;
+    background-color: #F5F5F5;
+    border-radius: 50%;
+}
+.nav-sales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.sales-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.sales-item-img{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F5F5;
+    width: 270px;
+    height: 250px;
+}
+.sale{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    background-color: #DB4444;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 3px;
+}
+.item-button{
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+    margin-bottom: 8px;
+}
+.item-buttons{
+    position: absolute;
+    top: 2%;
+}
+.price{
+    display: flex;
+    gap: 12px;
+    margin: 8px 0;
+}
+.price p{
+    font-weight: 600;
+}
+.new-price{
+    color: #DB4444;
+}
+.old-price{
+    color: #7D8184;
+    text-decoration: line-through;
+}
+.stars{
+    display: flex;
+    align-items: center;
+    color: #7D8184;
+    font-weight: 700;
+}
+.sales-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 40px;
+    overflow: visible;
+    margin-bottom: 60px;
+}
+.sales-item h3{
+    font-weight: 600;
+    padding-top: 16px;
+}
+.seeall{
+    display: flex;
+    justify-content: center;
+}
+.btnred{
+    background-color: #DB4444;
+    padding: 16px 48px;
+    color: white;
+    font-size: 16px;
+}
+.full-items-sales{
+    border-bottom: 1px solid #7d818437;
+}
+
+
+
+.categories{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 60px;
+}
+.category{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    width: 16%;
+    border: 1px solid #e1e0e0;
+    padding: 27px 0;
+    border-radius: 5px;
+}
+.category-act{
+    background-color: #DB4444;
+    color: #F5F5F5;
+}
+
+
+.reklama{
+    position: relative;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reklama-text{
+    position: absolute;
+    margin: 69px 56px;
+}
+.tim{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 50%;
+    width: 62px;
+    height: 62px;
+}
+.tim p{
+    font-size: 11px;
+}
+.reklama-img img{
+    position: relative;
+    left: 50%;
+}
+.time{
+    display: flex;
+    gap: 24px;
+    margin: 32px 0 40px;
+}
+.title-ban{
+    font-size: 16px;
+    color: #00FF66;
+}
+.buy-now button{
+    background-color: #00FF66;
+    padding: 16px 48px;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.stars p{
+    margin-right: 7px;
+}
+.new{
+    background-color: #00FF66;
+}
+.colors{
+    display: flex;
+    gap: 8px;
+
+}
+.color{
+    width: 20px;
+    height: 20px;
+    background-color: #DB4444;
+    border-radius: 50%;
+}
+.color-act{
+    border: 1px solid black;
+    width: 18px;
+    height: 18px;
+}
+.yel{
+    background-color: #EEFF61;
+}
+.bl{
+    background-color: black;
+}
+.gr{
+    background-color: #184A48;
+}
+
+
+.news, .new3{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.news{
+    padding-top: 50px;
+}
+.new2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.neww{
+    position: relative;
+}
+.news-textt{
+    position: absolute;
+    bottom: 4%;
+    left: 5%;
+}
+.news-textt a{
+    text-decoration: underline;
+}
+.news-textt p{
+    font-weight: 300;
+}
+
+.advantages{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.advantage{
+    text-align: center;
+}
+
+
+footer{
+    background-color: black;
+    padding-bottom: 20px;
+}
+.footer-full{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0 60px;
+}
+footer{
+    color: white;
+}
+footer a{
+    color: white;
+}
+.inp-foot{
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 12px;
+    color: white;
+    margin-top: 16px;
+}
+input{
+    outline: none;
+}
+.inp-foot input{
+    background-color: transparent;
+    color: white;
+}
+.footer2{
+    display: flex;
+    flex-direction: column;
+}
+footer h3{
+    padding-bottom: 24px;
+}
+.footer2 a{
+    padding-bottom: 16px;
+}
+.apps{
+    display: flex;
+    gap: 8px;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+}
+.apps a{
+    padding: 0;
+}
+.cop{
+    color: #7D8184;
+    font-size: 15px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+.foor-soc{
+    display: flex;
+    gap: 24px;
+    padding-top: 24px;
+}
